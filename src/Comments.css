@@ -1,0 +1,17 @@
+.comment {
+  border: 2px solid pink;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 10px 0;
+  margin-bottom: 15px;
+  transition: all 0.3s ease; /* smooth hover effect */
+}
+
+.comment:hover {
+  border-color: hotpink;
+  background-color: #ffe6f0;
+  transform: scale(1.02); /* slight zoom */
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
